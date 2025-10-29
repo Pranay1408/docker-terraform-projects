@@ -1,0 +1,10 @@
+# Ignore sensitive keys
+*.pem
+
+# Ignore Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ignore Docker temporary files
+*.log
